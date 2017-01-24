@@ -16,7 +16,13 @@ class contentActions extends sfActions
   * @param sfRequest $request A request object
   */
   public function executeIndex(sfWebRequest $request)
+  { 
+      
+  }
+  public function executeContact(sfWebRequest $request)
   {
-    $this->forward('default', 'module');
+      
+      $currentDate = getdate();
+      $this->hour = $currentDate['hours'];
   }
 }
