@@ -1,0 +1,12 @@
+## YAML Template.
+#---
+casa:
+  familia:
+    apellido:       Shilon
+    padres:         [Antonio, Guadalupe]
+    hijos:          [Jose, Manuel, Carmen]
+  direccion:
+    numero:         34
+    calle:          Tanana
+    ciudad:         Ciudad de México
+    codigopostal:   03000

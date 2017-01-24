@@ -7,9 +7,11 @@ all:
    impuestos:   19.6
  usuario_por_defecto:
    nombre:      Juan Perez
- email:
+ .array:
+  email:
    webmaster:   webmaster@ejemplo.com
    contacto:    contacto@ejemplo.com
+   nombre:      Antonio de Jesus
  dev:
    email:
      webmaster: otro@ejemplo.com

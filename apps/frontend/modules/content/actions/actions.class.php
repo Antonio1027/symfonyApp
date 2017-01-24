@@ -17,7 +17,7 @@ class contentActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   { 
-      $this->email = sfConfig::get('app_email_contacto');
+      $this->data = sfYaml::load(dirname(dirname(dirname(__DIR__))).'/config/test.yml');
   }
   public function executeContact(sfWebRequest $request)
   {

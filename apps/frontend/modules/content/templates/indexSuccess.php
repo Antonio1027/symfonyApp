@@ -4,9 +4,9 @@
         <title>HOME CONTENT MODULE</title>
     </head>
     <body>
-        <h1>Hello world</h1>
-        <?= $email ?> 
-        
+        <h1>Convert yml file to associative array</h1>
+        <pre>
+        <?php print_r($data) ?> 
+        </pre>
    </body>
-    <a href="./contact">Contact us</a>
 </html>
