@@ -17,7 +17,7 @@ class contentActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   { 
-      
+      $this->email = sfConfig::get('app_email_contacto');
   }
   public function executeContact(sfWebRequest $request)
   {
